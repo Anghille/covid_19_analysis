@@ -1,4 +1,6 @@
-# Covid19 Choropleth map  
+# Covid19 
+
+## Choropleth map  
 
 A choropleth map is a type of thematic map where areas or regions are shaded in proportion to a given data variable. The data that I used to create the following visualizations is the Novel Corona Virus 2019 dataset from Kaggle (https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset).
 
