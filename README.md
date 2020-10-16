@@ -12,6 +12,7 @@
 
 The Coronavirus, also known as Covid-19 or SARS-Cov-2, is an infectious disease caused by a virus belonging to the coronavirus family. First originated in the Huabei Province un China in december 2019, the Coronavirus spread around the world within a few weeks with most of Europe, North America, Middle-East and Asia contaminated by March 11th.
 
+
 ## Datasets  
 
 
@@ -23,6 +24,7 @@ It contains mutliples datasets:
 * time_series_covid_19_deaths
 * time_series_covid_19_recovered
 * Other that wasn't put in use here..
+
 
 ## Coronavirus choropleth maps  
 
@@ -37,6 +39,7 @@ Static choropleth maps are most useful when you want to compare a desired variab
 
 An animated or dynamic choropleth map is similar to a static choropleth map, except that you can compare a variable by region,over time. This adds a third dimension of information and is what makes these visualizations so interesting and powerful.    
 
+
 ## Evolution of cases and recovered cases graphs for each country
 
 Show the evolution of recovered and confirmed cases, by country. In the script, change the `pays=[]` parameter with name of desired countries to display them. 
@@ -47,6 +50,7 @@ lineplot_timeseries(covid_confirmed, covid_recovered, pays=["France","Italy","Ge
 <p align="center">
 <img src="/files/evolution_covid.png" alt="Evolution Covid Cases" width=700 height=500 >
 </p>
+
 
 ## TimeSeries Analysis
 
@@ -65,6 +69,8 @@ Given a TS, we can broadly classify into 2 categories: stationary and non-statio
 ### ADF test
 
 As stated by *Chimula & Zhang* (2020), in order to check the nature (stationarity and non-stationarity) of our COVID-19 dataset, we have to perform the **Augmented Dickey Fuller (ADF) test** (*Cheung & Lai, 1995*) on the input data. ADF is the standard unit root test to find the impact of trends on the data . If the *p-value* is **less than 0.05**, it rejects the null hypothesis i.e. it does not have a unit root and it is called stationary series. If the *p-value* is **greater than 0.05** the input data has unit root so it is regarded as non-stationary series.
+
+
 
 ## Versioning
 ### v0.0.1
