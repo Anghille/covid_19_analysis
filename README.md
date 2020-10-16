@@ -12,7 +12,12 @@
 
 The Coronavirus, also known as Covid-19 or SARS-Cov-2, is an infectious disease caused by a virus belonging to the coronavirus family. First originated in the Huabei Province un China in december 2019, the Coronavirus spread around the world within a few weeks with most of Europe, North America, Middle-East and Asia contaminated by March 11th.
   
-<br><br>  
+<br><br>
+## Goal  
+
+1. Implement each algorithm by hand to understand the model fully and showcase his functioning mechanism. 
+2. Predict Covid Cases (first for France, then other countries)
+
 ## Datasets  
 
 I used the data from Novel Corona Virus 2019 Datasets (https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset). Those datasets are an aggregation of data coming from multiple sources (government, google own data, medical report...).
