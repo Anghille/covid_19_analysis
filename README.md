@@ -4,6 +4,7 @@
 
 [![python](https://img.shields.io/badge/Made%20with-Python-blue)](https://www.python.org/)
 [![Version](https://img.shields.io/badge/Version-v0.0.1-blue)](https://github.com/Anghille/covid_19_analysis#versioning)
+[![References](https://img.shields.io/badge/bib-blue)](https://github.com/Anghille/covid_19_analysis#references)
 
 # Time Series Forecasting of Covid-19 Transmission Using LSTM Networks (WIP)
 
@@ -54,9 +55,9 @@ As stated by Chimula & Zhang (2020), in order to check the nature (stationarity 
 ## Versioning
 ### v0.0.1
 
-Added Dynamic Chorepleth *graphic*
-Added infected/recovered per Country *graphic*
-Added DataSet *cleaning*
+Added Dynamic Chorepleth *graphic*  
+Added infected/recovered per Country *graphic*  
+Added DataSet *cleaning*  
 
 
 
