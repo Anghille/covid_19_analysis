@@ -50,21 +50,21 @@ lineplot_timeseries(covid_confirmed, covid_recovered, pays=["France","Italy","Ge
 
 ## TimeSeries Analysis
 
-A large part of real-world datasets are temporal. Data collected over regular intervals of time is called time-series (TS) data and each data point is equally spaced over time. This last property is less true in real-life but this assumption is usually used. TS prediction is the method of forecasting upcoming trends/patterns of the given dataset that contains temporal features. In order to forecast COVID-19 transmission, we need input data as temporal components. A time series (TS) data can be break downed into trend, seasonality and error.  
+A large part of real-world datasets are temporal. Data collected over regular intervals of time is called **time-series (TS)** data and each data point is equally spaced over time. This last property is less true in real-life but this assumption is usually used. TS prediction is the method of **forecasting upcoming trends/patterns** of the given dataset that contains temporal features. In order to forecast COVID-19 transmission, we need input data as temporal components. A time series (TS) data can be break downed into **trend**, **seasonality** and **error**.  
 
-* Trend - presence of pattern that repeats on regular intervals of time due to external factors like lockdown, mandatory social distancing, etc.
-* Seasonality - presence of variations that occur at specific regular intervals less than a year, such as weekly, monthly, or quarterly, etc.  
+* **Trend** - presence of pattern that repeats on regular intervals of time due to external factors like lockdown, mandatory social distancing, etc.
+* **easonality** - presence of variations that occur at specific regular intervals less than a year, such as weekly, monthly, or quarterly, etc.  
 In many real-world scenarios, either of trend or seasonality are absent. After finding the nature of TS, various forecasting methods have to be applied on given TS.
 
 
 Given a TS, we can broadly classify into 2 categories: stationary and non-stationary.
 
-* Stationary TS: does not depend on the time components like trend, seasonality effects. Mean and variances are constant with respect to time. Stationary TS is easier to analyze and results skilful forecasting.
-* Non-stationary TS: has trend, seasonality effects in it and changes with respect to time. Mean, variance, standard deviation also changes with respect to time.
+* **Stationary TS** - does not depend on the time components like trend, seasonality effects. Mean and variances are constant with respect to time. Stationary TS is easier to analyze and results skilful forecasting.
+* **Non-stationary TS** - has trend, seasonality effects in it and changes with respect to time. Mean, variance, standard deviation also changes with respect to time.
 
 ### ADF test
 
-As stated by *Chimula & Zhang* (2020), in order to check the nature (stationarity and non-stationarity) of our COVID-19 dataset, we have to perform the Augmented Dickey Fuller (ADF) test (*Cheung & Lai, 1995*) on the input data. ADF is the standard unit root test to find the impact of trends on the data . If the p-value is less than 0.05, it rejects the null hypothesis i.e. it does not have a unit root and it is called stationary series. If the p-value is greater than 0.05 the input data has unit root so it is regarded as non-stationary series.
+As stated by *Chimula & Zhang* (2020), in order to check the nature (stationarity and non-stationarity) of our COVID-19 dataset, we have to perform the **Augmented Dickey Fuller (ADF) test** (*Cheung & Lai, 1995*) on the input data. ADF is the standard unit root test to find the impact of trends on the data . If the *p-value* is **less than 0.05**, it rejects the null hypothesis i.e. it does not have a unit root and it is called stationary series. If the *p-value* is **greater than 0.05** the input data has unit root so it is regarded as non-stationary series.
 
 ## Versioning
 ### v0.0.1
