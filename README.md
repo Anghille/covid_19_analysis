@@ -77,12 +77,12 @@ Added DataSet *cleaning*
 
 ## References
 
-1. CDC COVID-19 Response Team, CDC COVID-19 Response Team, Bialek, S., Boundy, E., Bowen, V., Chow, N., Cohn, A., Dowling, N., Ellington, S., Gierke, R., Hall, A., MacNeil, J., Patel, P., Peacock, G., Pilishvili, T., Razzaghi, H., Reed, N., Ritchey, M., & Sauber-Schatz, E. (2020). Severe Outcomes Among Patients with Coronavirus Disease 2019 (COVID-19)—United States, February 12–March 16, 2020. MMWR. Morbidity and Mortality Weekly Report, 69(12), 343‑346.
+1. CDC COVID-19 Response Team, CDC COVID-19 Response Team, Bialek, S., Boundy, E., Bowen, V., Chow, N., Cohn, A., Dowling, N., Ellington, S., Gierke, R., Hall, A., MacNeil, J., Patel, P., Peacock, G., Pilishvili, T., Razzaghi, H., Reed, N., Ritchey, M., & Sauber-Schatz, E. (2020). Severe Outcomes Among Patients with Coronavirus Disease 2019 (COVID-19)—United States, *February 12–March 16, 2020. MMWR. Morbidity and Mortality Weekly Report, 69(12)*, 343‑346.
 
-2. Cheung, Y.-W., & Lai, K. S. (1995). Lag Order and Critical Values of the Augmented Dickey–Fuller Test. Journal of Business & Economic Statistics, 13(3), 277‑280.
+2. Cheung, Y.-W., & Lai, K. S. (1995). Lag Order and Critical Values of the Augmented Dickey–Fuller Test. *Journal of Business & Economic Statistics, 13(3)*, 277‑280.
 
-3. Chimmula, V. K. R., & Zhang, L. (2020). Time series forecasting of COVID-19 transmission in Canada using LSTM networks. Chaos, Solitons and Fractals: Nonlinear Science, and Nonequilibrium and Complex Phenomena, 135, 1‑6.
+3. Chimmula, V. K. R., & Zhang, L. (2020). Time series forecasting of COVID-19 transmission in Canada using LSTM networks. *Chaos, Solitons and Fractals: Nonlinear Science, and Nonequilibrium and Complex Phenomena, 135*, 1‑6.
 
 4. World Health Organization. (2020). Coronavirus disease 2019 (COVID-19): situation report, 82.
 
-5. Yansun Xu, Weaver, J. B., Healy, D. M., & Jian Lu. (1994). Wavelet transform domain filters : A spatially selective noise filtration technique. IEEE Transactions on Image Processing, 3(6), 747‑758.
+5. Yansun Xu, Weaver, J. B., Healy, D. M., & Jian Lu. (1994). Wavelet transform domain filters : A spatially selective noise filtration technique. *IEEE Transactions on Image Processing, 3(6)*, 747‑758.
