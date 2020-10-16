@@ -4,7 +4,7 @@
 
 [![python](https://img.shields.io/badge/Made%20with-Python-blue)](https://www.python.org/)
 [![Version](https://img.shields.io/badge/Version-v0.0.1-blue)](https://github.com/Anghille/covid_19_analysis#versioning)
-[![References](https://img.shields.io/badge/bib-blue)](https://github.com/Anghille/covid_19_analysis#references)
+[![References](https://img.shields.io/badge/References-blue)](https://github.com/Anghille/covid_19_analysis#references)
 
 # Time Series Forecasting of Covid-19 Transmission Using LSTM Networks (WIP)
 
