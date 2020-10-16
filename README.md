@@ -29,6 +29,7 @@ It contains mutliples datasets:
 
 A choropleth map is a type of thematic map where areas or regions are shaded in proportion to a given data variable. The data that I used to create the following visualizations is the Novel Corona Virus 2019 dataset from Kaggle.  
 
+![chorepleth](/files/chorepleth.png)
 
 Static choropleth maps are most useful when you want to compare a desired variable by region. For example, if you wanted to compare the crime rate of each state in the US at a given moment, you could visualize it with a static choropleth.  
 
