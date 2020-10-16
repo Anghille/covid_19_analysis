@@ -27,9 +27,11 @@ It contains mutliples datasets:
 ## Coronavirus choropleth maps  
 
 
-A choropleth map is a type of thematic map where areas or regions are shaded in proportion to a given data variable. The data that I used to create the following visualizations is the Novel Corona Virus 2019 dataset from Kaggle.  
+A choropleth map is a type of thematic map where areas or regions are shaded in proportion to a given data variable. The data that I used to create the following visualizations is the Novel Corona Virus 2019 dataset from Kaggle.
 
-![chorepleth](/files/chorepleth.png)
+<p align="center">
+<img src="/files/chorepleth.png" alt="Evolution Covid Cases" width=800>
+</p>
 
 Static choropleth maps are most useful when you want to compare a desired variable by region. For example, if you wanted to compare the crime rate of each state in the US at a given moment, you could visualize it with a static choropleth.  
 
@@ -42,8 +44,9 @@ ex :
 ```python
 lineplot_timeseries(covid_confirmed, covid_recovered, pays=["France","Italy","Germany","Algeria","Austria","Australia","Russia","Mexico","Argentina","Peru","Colombia"], width_coef=1, height_coef=1.5)
 ```
-
-![Covid Evolution](/files/evolution_covid.png)
+<p align="center">
+<img src="/files/evolution_covid.png" alt="Evolution Covid Cases" width=700 height=500 >
+</p>
 
 ## TimeSeries Analysis
 
