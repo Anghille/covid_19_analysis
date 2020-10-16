@@ -17,7 +17,7 @@ The Coronavirus, also known as Covid-19 or SARS-Cov-2, is an infectious disease 
 
 1. Implement each algorithm by hand to understand the model fully and showcase his functioning mechanism. 
 2. Predict Covid Cases (first for France, then other countries)
-
+<br><br>
 ## Datasets  
 
 I used the data from Novel Corona Virus 2019 Datasets (https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset). Those datasets are an aggregation of data coming from multiple sources (government, google own data, medical report...).
