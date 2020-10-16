@@ -1,3 +1,10 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub watchers](https://img.shields.io/badge/Watchers-1-blue)](https://github.com/Anghille/covid_19_analysis/watchers)
+[![Pull-Requests Welcome](https://img.shields.io/badge/Pull%20Request-Welcome-blue)](https://github.com/Anghille/covid_19_analysis/pulls)
+
+[![python](https://img.shields.io/badge/Made%20with-Python-blue)](https://www.python.org/)
+[![Version](https://img.shields.io/badge/Version-v0.0.1-blue)](https://github.com/Anghille/covid_19_analysis#versioning)
+
 # Time Series Forecasting of Covid-19 Transmission Using LSTM Networks (WIP)
 
 ## Introduction
@@ -43,6 +50,15 @@ Non-stationary TS: has trend, seasonality effects in it and changes with respect
 ### ADF test
 
 As stated by Chimula & Zhang (2020), in order to check the nature (stationarity and non-stationarity) of our COVID-19 dataset, we have to perform the Augmented Dickey Fuller (ADF) test (Cheung & Lai, 1995) on the input data. ADF is the standard unit root test to find the impact of trends on the data . If the p-value is less than 0.05, it rejects the null hypothesis i.e. it does not have a unit root and it is called stationary series. If the p-value is greater than 0.05 the input data has unit root so it is regarded as non-stationary series.
+
+## Versioning
+### v0.0.1
+
+Added Dynamic Chorepleth *graphic*
+Added infected/recovered per Country *graphic*
+Added DataSet *cleaning*
+
+
 
 ## References
 
